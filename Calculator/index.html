@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator </title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id = "container">
+        <input id = "display" readonly>
+        <div id = "buttonContainer">
+            <button onclick = "action('+')" class = "operator"> + </button>
+            <button onclick = "action('1')"> 1 </button>
+            <button onclick = "action('2')"> 2 </button>
+            <button onclick = "action('3')"> 3 </button>
+            <button onclick = "action('-')" class = "operator"> - </button>
+            <button onclick = "action('4')"> 4 </button>
+            <button onclick = "action('5')"> 5 </button>
+            <button onclick = "action('6')"> 6 </button>
+            <button onclick = "action('*')" class = "operator"> * </button>
+            <button onclick = "action('7')"> 7 </button>
+            <button onclick = "action('8')"> 8 </button>
+            <button onclick = "action('9')"> 9 </button>
+            <button onclick = "action('/')" class = "operator"> / </button>
+            <button onclick = "action('0')"> 0 </button>
+            <button onclick = "action('.')"> . </button>
+
+            <button onclick = "calculate()" class = "equalsOperator"> = </button>
+            <button onclick = "clearDisplay()" class = "operator"> C </button>
+        </div>
+    </div>
+    <script src = "main.js"></script>
+</body>
+</html>

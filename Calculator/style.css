@@ -1,0 +1,88 @@
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#container{
+    
+    width: 90%;
+    max-width: 600px;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: hsl(60, 2%, 27%);
+   
+}
+
+#display{
+
+    width: 96%;
+    height: 90px;
+    text-align: center;
+    padding: 10px 0px 10px 20px;
+    background-color: hsl(60, 2%, 43%);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: hsl(60, 1%, 17%);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#buttonContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 10px;
+    padding: 25px;
+    padding-left: 36px;
+}
+
+button:hover{
+    background-color: hsl(60, 1%, 30%);
+}
+
+button:active{
+    background-color: hsl(60, 1%, 50%);
+}
+
+button.operator{
+
+    background-color: hsl(40, 90%, 42%);
+
+}
+
+button.operator:hover{
+    background-color: hsl(40, 90%, 60%);
+}
+
+button.operator:active{
+    background-color: hsl(40, 90%, 80%);
+}
+
+button.equalsOperator{
+    background-color: hsl(92, 85%, 45%);
+}
+
+button.equalsOperator:hover{
+    background-color: hsl(92, 85%, 65%);
+}
+
+button.equalsOperator:active{
+    background-color: hsl(92, 85%, 80%);
+}
